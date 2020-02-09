@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="view.AddMedecinFXMLController">
+   <children>
+      <Button layoutX="467.0" layoutY="328.0" mnemonicParsing="false" onAction="#addMedecin" prefHeight="25.0" prefWidth="109.0" text="Add" />
+      <TextField fx:id="id" layoutX="226.0" layoutY="56.0" />
+      <TextField fx:id="version" layoutX="226.0" layoutY="120.0" />
+      <TextField fx:id="titre" layoutX="226.0" layoutY="188.0" />
+      <TextField fx:id="nom" layoutX="226.0" layoutY="255.0" />
+      <TextField fx:id="prenom" layoutX="226.0" layoutY="316.0" />
+   </children>
+</AnchorPane>

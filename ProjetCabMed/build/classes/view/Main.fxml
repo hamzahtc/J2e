@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainController">
+   <children>
+      <Button layoutX="499.0" layoutY="273.0" mnemonicParsing="false" onAction="#ListMedecins" style="-fx-background-color: #0080ff;" text="Medecins" />
+      <Button layoutX="34.0" layoutY="273.0" mnemonicParsing="false" style="-fx-background-color: #0080ff;" text="Creneaux" />
+      <Button layoutX="194.0" layoutY="273.0" mnemonicParsing="false" style="-fx-background-color: #0080ff;" text="Rendez-vous" />
+      <Button layoutX="369.0" layoutY="273.0" mnemonicParsing="false" style="-fx-background-color: #0080ff;" text="Clients" />
+      <Label layoutX="149.0" layoutY="130.0" text="Cabinte Medicale" textFill="#0080ff">
+         <font>
+            <Font name="Candara Light" size="42.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

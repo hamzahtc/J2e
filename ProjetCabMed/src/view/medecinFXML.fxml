@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="view.MedecinFXMLController">
+    <stylesheets>
+        <URL value="@medecinfxml.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="tableView" layoutY="57.0" prefHeight="286.0" prefWidth="600.0" />
+      <Button layoutX="497.0" layoutY="361.0" mnemonicParsing="false" onAction="#addMedecin" style="-fx-background-color: #0080ff;" text="New medecin" />
+      <Label layoutX="232.0" layoutY="14.0" text="List medecins" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Corbel Light" size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="58.0" layoutY="361.0" mnemonicParsing="false" onAction="#deleteMedecin" text="Delete" />
+   </children>
+</AnchorPane>
